@@ -4,7 +4,7 @@ const request = require('request');
 // replace the value below with the Telegram token you receive from @BotFather
 const token = '5594141025:AAEKl-6qlwCh4C9N26t061wbJQHso4J9lTM';
 
-// Create a bot that uses 'polling' to fetch new updates
+// Create a bot that uses 'polling' to fetch new updates f
 const bot = new TelegramBot(token, {polling: true});
 
 
