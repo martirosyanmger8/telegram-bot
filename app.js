@@ -12,7 +12,7 @@ const bot = new TelegramBot(token, {polling: true});
 bot.onText(/\/start/, (msg, match) => {
   const chatId = msg.chat.id;
     bot.sendSticker(chatId, 'https://cdn.tlgrm.app/stickers/9a3/cd3/9a3cd35f-d28d-4473-890b-2cfef53d3de9/256/1.webp')
-    bot.sendMessage(chatId, 'Барев дзес , дорогой! Выбирай нужную валюту и смотри актуальный на нее курс!');
+    bot.sendMessage(chatId, 'Барев дзес , ахпер джан! Выбирай нужную валюту и смотри актуальный на нее курс!');
 })
 
 bot.onText(/\/curse/, (msg, match) => {
